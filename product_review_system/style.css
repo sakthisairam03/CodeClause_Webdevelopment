@@ -1,0 +1,46 @@
+body{
+    font-family: Arial,sans-serif;
+    text-align:center;
+}
+.product-review-container{
+    max-width:800px;
+    margin:0 auto;
+    padding:20px;
+}
+.review-form{
+    border:1px solid #000000;
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#8ecae6
+}
+.review-form label{
+    display:block;
+    margin-bottom:5px;
+}
+.review-form input[type="text"],
+.review-form input[type="email"],
+.review-form input[type="number"],
+.review-form input[type="date"],
+.review-form select,
+.review-form textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #000000;
+    border-radius: 5px;
+}
+.review-form button{
+    background-color:#023047;
+    color:#F1FAEE;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+.review-form button:hover{
+    background-color: #0056b3;
+}
+.reviews-list .review {
+    border:1px solid #14213D;
+    padding:20px;
+    margin-bottom:20px;
+}
